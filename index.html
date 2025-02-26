@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <style>
+    body{
+      background-color: #efd065;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    .blog_card{
+      max-width: 300px;
+      width: 100%;
+      padding: 16px;
+      border-radius: 16px;
+      border: solid black 1px;
+      box-shadow: black 1px;
+      background-color: #fff;
+      margin: 0 auto;
+      box-shadow: 8px 8px 0px #000;
+    }
+    img{
+      width: 100%;
+      border-radius: 8px;
+    }
+    h3{
+      color: #000;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 12px;
+      background-color: #efd065;
+      display: inline-block;
+      padding: 8px;
+      border-radius: 4px;
+    }
+    h4{
+      color: #000;
+      font-size: 12px;
+      font-weight: 400;
+      margin-top: 0px;
+    }
+    h1{
+      color: #000;
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 8px;
+      margin-bottom: 12px;
+    }
+    p{
+      color: #5e5e5e;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 4px;
+    }
+    .author{
+      display: flex;
+      align-items: center;
+      margin-top: 16px;
+    }
+    .author img{
+      display: inline-block;
+      width: 40px;
+    }
+    .author h3{
+      background-color: transparent;
+    }
+  </style>
+</head>
+<body> 
+  <div class="blog_card">
+    <img src="./assets/images/illustration-article.svg" alt="blog image">
+    <h3>Learning</h3>
+    <h4>Published 21 Dec 2023</h4>
+    <h1>HTML & CSS foundations</h2>
+    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <div class="author">
+      <img src="./assets/images/image-avatar.webp" alt="author image">
+      <h3>Greg Hooper</h3>
+    </div>
+  </div>
+
+</body>
+</html>
